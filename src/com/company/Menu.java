@@ -9,6 +9,14 @@ public class Menu {
         this.jugador2 = jugador2;
     }
 
+
+    String menuJuegos = "███    ███ ███████ ███    ██ ██    ██ \n" +
+                        "████  ████ ██      ████   ██ ██    ██ \n" +
+                        "██ ████ ██ █████   ██ ██  ██ ██    ██ \n" +
+                        "██  ██  ██ ██      ██  ██ ██ ██    ██ \n" +
+                        "██      ██ ███████ ██   ████  ██████ \n ";
+
+
     String pedirJugador1 = "Hola jugador 1, escribe tu nombre: ";
     String PedirJugador2 = "Hola jugador 2, escribe tu nombre: ";
     String menuJuego1 = "-----" + jugador1.nombre + "-----\n1 -> Tirar dados.\n2 -> Salir";
