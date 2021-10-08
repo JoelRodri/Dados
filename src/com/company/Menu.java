@@ -20,10 +20,24 @@ public class Menu {
 
     String pedirJugador1 = "Hola jugador 1, escribe tu nombre: ";
     String PedirJugador2 = "Hola jugador 2, escribe tu nombre: ";
-    String menuJugador1 = "--TE TOCA--" + jugador1.nombre + "-----\n1 -> Tirar dados.\n2 -> Salir";
-    String menuJugador2 = "--TE TOCA--" + jugador2.nombre + "-----\n1 -> Tirar dados.\n2 -> Salir";
 
-    String ganaJugador1 = jugador1.nombre + " GANA!";
-    String ganaJugador2 = jugador2.nombre + " GANA!";
-    String empatan = "EMPATE!";
+    String menuJugador1() {
+        String menuJugador1 = "--TE TOCA--" + jugador1.nombre + "-----\n1 -> Tirar dados.\n2 -> Salir";
+        return menuJugador1;
+    }
+    String menuJugador2(){
+        String menuJugador2 = "--TE TOCA--" + jugador2.nombre + "-----\n1 -> Tirar dados.\n2 -> Salir";
+        return menuJugador2;
+    }
+
+    String ganaJugador1() {
+        String ganaJugador1 = jugador1.nombre + " GANA!";
+        return ganaJugador1;
+    }
+    String ganaJugador2() {
+        String ganaJugador2 = jugador2.nombre + " GANA!";
+        return ganaJugador2;
+    }
+
+        String empatan = "EMPATE!";
 }

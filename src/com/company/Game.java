@@ -64,7 +64,7 @@ public class Game {
                     if (jug % 2 == 0){
 
                         //imprimimos el menu de juego para el jugador1.
-                        System.out.println(menu.menuJugador1);
+                        System.out.println(menu.menuJugador1());
 
                         //leemos la opcion de juego que da el usuario.
                         int opcion = sc.nextInt();
@@ -91,7 +91,7 @@ public class Game {
                         }
                     }else{
                         //imprimimos el menu de juego para el jugador2.
-                        System.out.println(menu.menuJugador2);
+                        System.out.println(menu.menuJugador2());
 
                         //leemos la opcion de juego que da el usuario.
                         int opcion = sc.nextInt();
@@ -123,9 +123,9 @@ public class Game {
 
                 //comprueba las victorias de cada jugador para determinar quien gana, o si empatan.
                 if (jugador1.puntos > jugador2.puntos){
-                    System.out.println(menu.ganaJugador1);
+                    System.out.println(menu.ganaJugador1());
                 }else if (jugador2.puntos > jugador1.puntos){
-                    System.out.println(menu.ganaJugador2);
+                    System.out.println(menu.ganaJugador2());
                 }else{
                     System.out.println(menu.empatan);
                 }
