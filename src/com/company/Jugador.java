@@ -6,7 +6,7 @@ public class Jugador {
     int intentos;
 
     public Jugador() {
-        this.nombre = "nombre";
+        this.nombre = nombre;
         this.puntos = puntos;
         this.intentos = intentos;
     }
